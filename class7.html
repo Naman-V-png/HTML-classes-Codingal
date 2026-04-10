@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /*
+                body
+                {
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAF3jvkhiHrC4W-Vu9J_0A1kvni4C5qZrj1w&s");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: darkslateblue;
+            }
+            */
+            #grad1 {
+                height: 400px;
+                background-color: brown;
+                background-image: linear-gradient(to bottom right, yellow, blue, red, black)
+            }
+            #grad2 {
+                width: 100px;
+                height: 100px;
+                background-color: blue;
+                animation-name: example;
+                animation-duration: 10s;
+            }
+            @keyframes example {
+                0% {background-color: red;}
+                25% {background-color: yellow;}
+                50% {background-color: green;}
+                100% {background-color: blue;}
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div id="grad1" style="text-align:center;margin:auto;color:darkslategray;font-size:40px;font-weight:bold">
+            <p>
+                Hello
+            </p>
+        </div>
+        <div id="grad2">
+            Hello again
+        </div>
+    </body>
+</html>
