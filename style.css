@@ -1,25 +1,50 @@
-/*global css*/
-*{
-    font-size: 20px;
-    font-weight: 500;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0D1117;
+    color: #C9D1D9;
 }
-/*external css*/
-h3{
-    color:khaki;
+h1 {
+    color:beige;
 }
-/*element selector*/
-h4{
-    color:aqua;
+a {
+    color:bisque;
 }
-/*class selector*/
-.myclass{
-    color:fuchsia;
+a:hover {
+    color: #1F6FEB;
 }
-/*ID selector*/
-#myid{
-    color:mediumpurple;
+/*Child selector*/
+ul > li {
+    font-weight: bold;
+    color:brown;
 }
-/*group selector*/
-h5,p{
-    color:maroon;
+/*Sibling selector*/
+h1 + p {
+    background-color:aquamarine;
+    padding: 10px;
+    border-radius: 5px;
+}
+/*Pseudo class*/
+ul li:hover {
+    color:burlywood;
+}
+/* nth child(n) pseudo class*/
+ul li:nth-child(1) {
+    background-color:cornflowerblue;
+}
+/* not(selector) pseudo class*/
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+/*::before element*/
+ul li::before {
+    content: "🗣️";
+}
+/*after element*/
+a::after {
+    content: "💀";
+}
+/*first letter element*/
+p::first-letter {
+    font-size: 200%;
+    color:darkblue;
 }
