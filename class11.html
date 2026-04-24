@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<style>
+    div {
+        right: 30px;
+        border: 3px solid rgb(86, 86, 86);
+        background-color: red;
+    }
+    div.absolute {
+        position: absolute;
+        left: 50px;
+        border: 3px solid blue;
+    }
+    div.relative {
+        position: relative;
+        left: 100px;
+        border: 3px solid black;
+    }
+    div.fixed {
+        position: fixed;
+        top: 0;
+        right: 20px;
+        width: 300px;
+        border: 3px solid gray;
+    }
+    div.sticky {
+        position: sticky;
+        top: 1px;
+        left: 20px;
+        width: 100px;
+        border: 3px solid darkblue
+    }
+    div.one {
+        opacity: 0.1;
+    }
+    div.two {
+        opacity: 0.3;
+    }
+    div.three {
+        opacity: 0.6;
+    }
+</style>
+</head>
+
+<body>
+    <!---->
+    <h2>POSITIONING</h2>
+    <div>
+        Div with no position property
+    </div>
+    <div class="sticky">
+        Div with sticky property
+    </div>
+    <div class="relative">
+        This div has position relative
+        <div class="absolute">
+            Absolute class div
+        </div>
+    </div>
+    <div class="fixed">
+        Div with fixed position property
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <h1>The opacity property</h1>
+    <p>This is how this property looks:</p>
+    <div class="one">opacity 0.1</div>
+    <div class="two">opacity 0.3</div>
+    <div class="three">opacity 0.6</div>
+    <div>opacity 1 (default)</div>
+</body>
+
+</html>
